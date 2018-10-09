@@ -19,8 +19,8 @@ export default class toolbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" light>
-          <NavbarBrand href="/" className="mr-auto">Digital Status Dashboard</NavbarBrand>
+        <Navbar color="dark" dark>
+          <NavbarBrand href="/" className="mr-auto"> Digital Status Dashboard</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
