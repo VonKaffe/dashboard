@@ -16,8 +16,8 @@ export default class Dashboard extends React.Component {
         </Row>
 
         <Row>
-          <Col xs="6">.col-6</Col>
-          <Col xs="6">.col-6</Col>
+          <Col lg="12">.col-6</Col>
+          <Col md="6">.col-6</Col>
         </Row>
         <Row>
           <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
